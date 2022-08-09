@@ -1,0 +1,43 @@
+.gradient{ 
+    background-image: linear-gradient(to right, darkolivegreen, bisque);
+    padding-bottom: 20px;
+}
+
+.transition:hover{ /*cuando el mause toca el elemnto cambia de propiedad*/
+    transform: skew(20deg, 10deg);
+    color:darksalmon;   
+}
+
+.foot:hover{
+    font-size: 30px;
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.parrafo{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    background-color: plum;
+}
+
+.barra:hover{
+    background-color: plum;
+    
+}
+
+.borde:hover{
+    border: 1px solid black;
+}
+
+
+
+
